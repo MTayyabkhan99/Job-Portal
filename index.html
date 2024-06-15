@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">JobPortal</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for jobs...">
+            <button>Search</button>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Job Categories</h2>
+            <ul>
+                <li><a href="#">Tech</a></li>
+                <li><a href="#">Finance</a></li>
+                <li><a href="#">Healthcare</a></li>
+                <li><a href="#">Education</a></li>
+            </ul>
+            <h2>Filters</h2>
+            <div class="filters">
+                <label for="location">Location:</label>
+                <input type="text" id="location" placeholder="Enter location">
+                <label for="type">Job Type:</label>
+                <select id="type">
+                    <option value="full-time">Full-Time</option>
+                    <option value="part-time">Part-Time</option>
+                    <option value="remote">Remote</option>
+                </select>
+                <button>Apply Filters</button>
+            </div>
+        </aside>
+        <main class="main-content">
+            <h1>Latest Job Listings</h1>
+            <div class="job-listing">
+                <div class="job">
+                    <h2><a href="job-details.html">Software Engineer</a></h2>
+                    <p>Company: Contour Software</p>
+                    <p>Location: Remote</p>
+                </div>
+                <div class="job">
+                    <h2><a href="job-details.html">Data Scientist</a></h2>
+                    <p>Company: Folio 3</p>
+                    <p>Location: Karachi</p>
+                </div>
+                <div class="job">
+                    <h2><a href="job-details.html">UI/UX Designer</a></h2>
+                    <p>Company: Cubix</p>
+                    <p>Location: Islamabad</p>
+                </div>
+                <div class="job">
+                    <h2><a href="job-details.html">Full Stack Developer</a></h2>
+                    <p>Company: Sybrid PVT LTD</p>
+                    <p>Location: Lahore</p>
+                </div>
+                <div class="job">
+                    <h2><a href="job-details.html">Backend Developer</a></h2>
+                    <p>Company: DPL</p>
+                    <p>Location: Karachi</p>
+                </div>
+                <div class="job">
+                    <h2><a href="job-details.html">Python Developer</a></h2>
+                    <p>Company: Systems Limited</p>
+                    <p>Location: Multan</p>
+                </div>
+            </div>
+        </main>
+        <aside class="sidebar right">
+            <h2>Top Companies</h2>
+            <ul>
+                <li><a href="#">Contour Software</a></li>
+                <li><a href="#">Sybrid PVT LTD</a></li>
+                <li><a href="#">DPL</a></li>
+                <li><a href="#">Systems Limited</a></li>
+            </ul>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2024 JobPortal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
